@@ -1,4 +1,4 @@
-# Ansible AWX Tower Demo - Varnish load-balanced PHP App
+ # Ansible AWX Tower Demo - Varnish load-balanced PHP App
 
 This repository contains a demonstration PHP app that runs with three servers: a Varnish proxy frontend, and two PHP app server backends.
 
@@ -8,11 +8,11 @@ The repository was created to demonstrate AWX and Tower for Jeff Geerling's [Ans
 
 ## Prerequisites
 
-It is assumed you're running three AWS EC2 instances, running Debian 10. The instances should have the tag `Name` set to:
+It is assumed you're running three Debian 10 vagrant's VM's.
 
-  - Instance 1: `awx-demo-varnish`
-  - Instance 2: `awx-demo-php`
-  - Instance 3: `awx-demo-php`
+  - Instance 1: `192.168.60.10`
+  - Instance 2: `192.168.60.11`
+  - Instance 3: `192.168.60.12`
 
 ## Usage
 

@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('America/Chicago');
+date_default_timezone_set('America/Managua');
 $datetime = date('Y-m-d h:i:s a', time());
 ?>
 <html>
